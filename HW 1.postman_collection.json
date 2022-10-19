@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "d7a07dff-fe32-4e07-b7b5-d7af752bf97c",
+		"name": "HW 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21021907"
+	},
+	"item": [
+		{
+			"name": "Get_method_HW7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Kate",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "31",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "300",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_method_HW4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=kate&age=31&salary=300000",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kate"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "300000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_method_HW6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Kate&age=31&salary=300",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Kate"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_method_HW5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Kate&age=31&salary=300",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Kate"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_method_HW3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?age=31&name=Kate&weight=60",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "name",
+							"value": "Kate"
+						},
+						{
+							"key": "weight",
+							"value": "60"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_method_HW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?age=int&name=str",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "int"
+						},
+						{
+							"key": "name",
+							"value": "str"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
